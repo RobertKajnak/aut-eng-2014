@@ -94,7 +94,7 @@ void merge(int *a, int low, int high, int mid, int *endResult)
             endResult[i]=a[h];
             assignments++;
             h++;
-            i++;
+            ///i++;You had this in plus, this is why it gave segmantation fault when we tried to do it at the lab
         }
         else
         {
